@@ -1,4 +1,4 @@
-# 💬 Hate Speech Detection using Logistic Regression
+# Hate Speech Detection using Logistic Regression
 
 This project focuses on detecting hate speech in tweets using Natural Language Processing (NLP) techniques and a Logistic Regression classifier. The model is trained using TF-IDF vectorization and evaluated on performance metrics like accuracy, precision, and recall.
 
@@ -7,14 +7,14 @@ The dataset contains labeled tweets:
 - `train.csv` — used for training the model.
 - `test.csv` — used for testing predictions.
 
-## 🛠️ Features
+## 🛠 Features
 - Data Cleaning & Preprocessing
 - TF-IDF Vectorization
 - Logistic Regression Model
 - Evaluation Metrics (Accuracy, F1-score, Confusion Matrix)
 - Model and Vectorizer Exported as `.pkl` files
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repo:
 git clone https://github.com/Auromirajayakumar/Hate-Speech-Detection.git
 cd Hate-Speech-Detection
@@ -24,10 +24,11 @@ pip install -r requirements.txt
 
 ## 📷 Output
 - Displays accuracy and evaluation report
-- Shows confusion matrix
+- Shows confusion matrix ![Confusion Matrix](confusion%20matrix%20_hate%20speech%20detector.png)
+
 - Saves trained model and vectorizer
 
-## 🧠 Model Used
+## Model Used
 - Logistic Regression with class balancing
 - TF-IDF features (Top 5000 terms)
 
